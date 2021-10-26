@@ -1,0 +1,18 @@
+body {
+  background-position: center;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  font-family: arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  color: rgb(207, 126, 126);
+  font-size: 14px;
+}
+
+.link {
+  color: rgb(207, 126, 126);
+  text-decoration: none;
+}
