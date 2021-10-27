@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import WeatherInfo from "./Weatherinfo.js";
+import React, { useState } from "react";
+import WeatherInfo from "./Weatherinfo";
 import axios from "axios";
 import "./Weather.css";
 
