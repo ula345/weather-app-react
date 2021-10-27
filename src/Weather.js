@@ -4,11 +4,11 @@ import axios from "axios";
 import "./Weather.css";
 
 export default function Weather(props) {
-  const [weatherData, setweatherData] = useState({ ready: false });
+  const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    setweatherData({
+    setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
