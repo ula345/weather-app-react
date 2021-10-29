@@ -17,7 +17,7 @@ export default function WetaherInfo(props) {
     
     <WeatherTemperature celsius={props.data.temperature} /> </div>
      <div className="col-6">  
-       <h2> {props.data.date}</h2>
+       
         <ul>
         
             <li> {props.data.description}</li>
